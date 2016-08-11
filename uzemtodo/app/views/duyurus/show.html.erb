@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @duyuru.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @duyuru.content %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @duyuru.date %>
+</p>
+
+<%= link_to 'Edit', edit_duyuru_path(@duyuru) %> |
+<%= link_to 'Back', duyurus_path %>

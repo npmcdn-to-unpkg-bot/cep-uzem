@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @haber.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @haber.content %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @haber.date %>
+</p>
+
+<%= link_to 'Edit', edit_haber_path(@haber) %> |
+<%= link_to 'Back', habers_path %>
